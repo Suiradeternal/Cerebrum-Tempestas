@@ -1,0 +1,38 @@
+div.outbox{/*The oustide box with style . */
+  border: 2px, solid, black;
+  border-radius: 5px;
+  padding: 5px;
+  max-width:350px; 
+  max-height:700px;
+  box-shadow: .75rem .75rem black;
+  background-color: blue;
+}
+div.textbox{/*The text box. */
+  border: 1px, solid, black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: cyan;
+}
+.centerimg {/*Centers the image and gives padding. */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 1px, solid, white;
+  padding: 10px;
+}
+h3.center{/*The name box which is centered. */
+  text-align: center;
+  border: 5px, solid, white;
+  color:white;
+}
+p.emphasized{ /*Italicized fun fact. */
+  font-style: italic;
+}
+span.styled{ /*Makes the bullet list items bold. */
+ font-weight: bold;
+  }
+ul { /*Removes the bullet points and adds padding.*/
+ list-style-type: none;
+ padding: 2px;
+}
